@@ -13,7 +13,7 @@
     "version": "lerna version --conventional-commits --yes"
   },
   "workspaces": [
-    "packages/components/*/*"
+    "packages/components/*"
   ],
   "eslintConfig": {
     "extends": "eslint:recommended",
