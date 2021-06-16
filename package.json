@@ -12,6 +12,9 @@
     "autoPublish": "lerna publish --conventional-commits --yes",
     "version": "lerna version --conventional-commits --yes"
   },
+  "publishConfig": {
+    "registry": "https://github.com/huanhuanwa/lib"
+  },
   "workspaces": [
     "packages/components/*"
   ],

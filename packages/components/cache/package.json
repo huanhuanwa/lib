@@ -1,5 +1,5 @@
 {
-  "name": "test-@tethys/cache",
+  "name": "test-huan-cache",
   "version": "0.0.0",
   "description": "",
   "author": "",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://github.com/huanhuanwa/lib"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
