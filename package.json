@@ -8,9 +8,8 @@
     "packages:list": "lerna ls -l",
     "packages:changed": "lerna changed",
     "packages:build": "lerna run --stream --sort build",
-    "publish": "lerna publish",
-    "autoPublish": "lerna publish --conventional-commits --yes",
-    "version": "lerna version --conventional-commits --yes"
+    "version": "lerna version --conventional-commits --yes",
+    "publish": "lerna publish from-git"
   },
   "publishConfig": {
     "registry": "https://github.com/huanhuanwa/lib"
