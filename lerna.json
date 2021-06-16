@@ -1,6 +1,6 @@
 {
   "useWorkspaces": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "npmClient": "yarn",
   "command": {
     "version": {
@@ -11,14 +11,6 @@
         "**/*.md"
       ],
       "message": "build: release version %v"
-    },
-    "publish": {
-      "message": "chore(release): publish %v",
-      "ignoreChanges": [
-        ".gitignore",
-        "*.log",
-        "*.md"
-      ]
     },
     "bootstrap": {
       "ignore": "npm-*",
