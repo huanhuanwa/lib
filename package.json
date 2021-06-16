@@ -11,36 +11,16 @@
     "version": "lerna version --conventional-commits --yes",
     "publish": "lerna publish from-git"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanhuanwa/test-pub.git"
+  },
   "publishConfig": {
     "registry": "https://github.com/huanhuanwa/lib"
   },
   "workspaces": [
     "packages/components/*"
   ],
-  "eslintConfig": {
-    "extends": "eslint:recommended",
-    "env": {
-      "node": true,
-      "es6": true
-    }
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-lerna-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
-  "lint-staged": {
-    "*.ts": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
